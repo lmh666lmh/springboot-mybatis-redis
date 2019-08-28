@@ -33,8 +33,7 @@
 	</insert>
 
 	<update id="updateCity" parameterType="City">
-		update
-		city
+		update city
 		set
 		<if test="provinceId!=null">
 			province_id = #{provinceId},

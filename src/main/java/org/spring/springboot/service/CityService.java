@@ -12,7 +12,6 @@ import java.util.List;
 public interface CityService {
     /**
      * 根据城市 ID,查询城市信息
-     *
      * @param id
      * @return
      */
@@ -20,7 +19,6 @@ public interface CityService {
 
     /**
      * 新增城市信息
-     *
      * @param city
      * @return
      */
@@ -28,7 +26,6 @@ public interface CityService {
 
     /**
      * 更新城市信息
-     *
      * @param city
      * @return
      */
@@ -36,7 +33,6 @@ public interface CityService {
 
     /**
      * 根据城市 ID,删除城市信息
-     *
      * @param id
      * @return
      */

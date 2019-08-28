@@ -78,7 +78,6 @@ public class CityServiceImpl implements CityService {
         boolean hasKey = redisTemplate.hasKey(key);
         if (hasKey) {
             redisTemplate.delete(key);
-
             LOGGER.info("CityServiceImpl.updateCity() : 从缓存中删除城市 >> " + city.toString());
         }
 
